@@ -5,32 +5,32 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const projects = [
   {
-    name: "Vacation of Africa",
-    year: "Mar2022",
+    name: "Job Portal",
+    year: "March 2025",
     align: "right",
-    image: "/images/website-img-1.jpg",
-    link: "#",
+    image: "/images/jobPortal.png",
+    link: "https://job-portal-frontend-ruby-nine.vercel.app/",
   },
   {
-    name: "Moola App",
-    year: "Sept2022",
+    name: "Password Manager",
+    year: "October 2024",
     align: "left",
-    image: "/images/website-img-2.webp",
-    link: "#",
+    image: "/images/PasswordManager.png",
+    link: "https://password-manager-frontend-sooty.vercel.app/",
   },
   {
-    name: "Tourzania",
-    year: "Jan2023",
+    name: "Snake Game",
+    year: "July 2024",
     align: "right",
-    image: "/images/website-img-3.jpg",
-    link: "#",
+    image: "/images/SnakeGame.png",
+    link: "https://snake-game-iota-two.vercel.app/",
   },
   {
-    name: "Bank of Luck",
-    year: "May2024",
+    name: "Test Forest Fires",
+    year: "May 2024",
     align: "left",
-    image: "/images/website-img-4.jpg",
-    link: "#",
+    image: "/images/TestForestFires.png", // I changed the image path assuming it should be unique
+    link: "https://testforestfires-vs4b.onrender.com", // If you have a deployed link for this project, replace '#' with the URL
   },
 ];
 
@@ -54,6 +54,7 @@ const ProjectsMain = () => {
               year={project.year}
               align={project.align}
               image={project.image}
+              link={project.link} 
             />
           );
         })}
