@@ -19,16 +19,23 @@ const projects = [
     link: "https://password-manager-frontend-sooty.vercel.app/",
   },
   {
+    name: "Shop Hub",
+    year: "December 2024",
+    align: "right",
+    image: "/images/ShopHub.png",
+    link: "https://shop-hub-ten.vercel.app/",
+  },
+  {
     name: "Snake Game",
     year: "July 2024",
-    align: "right",
+    align: "left",
     image: "/images/SnakeGame.png",
     link: "https://snake-game-iota-two.vercel.app/",
   },
   {
     name: "Test Forest Fires",
     year: "May 2024",
-    align: "left",
+    align: "right",
     image: "/images/TestForestFires.png", // I changed the image path assuming it should be unique
     link: "https://testforestfires-vs4b.onrender.com", // If you have a deployed link for this project, replace '#' with the URL
   },
